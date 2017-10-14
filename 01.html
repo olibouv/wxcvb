@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+		<!-- Bootstrap css -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Raleway" rel="stylesheet">
+		<link href="01.css" rel="stylesheet">
+	</head>
+	<body>
+		<!-- Barre de navigation -->
+		<nav class="navbar navbar-default" style="background-color:#0 ">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">  Croq'& Share  </a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#"> Toutes nos Recettes </a></li>
+						<li><a href="#"> Actualités </a></li>
+						<li><a href="#"> Rejoindre </a></li>
+						<li><a href="#"> FAQ </a></li>
+						<form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="text" placeholder="Miam !">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+						</form>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Carousel -->
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+			<!-- Petits ronds en bas du carousel indiquants l'image active -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Images du carousel -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Cologne_-_Panoramic_Image_of_the_old_town_at_dusk.jpg">
+				</div>
+				<div class="item">
+					<img src="http://pic.templetons.com/brad/pano/midpano/badland-50-br.jpg">
+				</div>
+				<div class="item">
+					<img src="http://www.west-crete.com/images/panoramas/hania-harbour-panorama8large.jpg">
+				</div>
+			</div>
+
+			<!-- Boutons à droite et à gauche pour changer les image -->
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+		<!-- Colonnes -->
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-sm-4">
+					<img height="120" src="http://static.planetminecraft.com/files/avatar/1654925_1.jpg">
+					<h1>Amazing !</h1>
+					<button class="btn btn-primary">Learn more</button>
+				</div>
+				<div class="col-sm-4">
+					<img height="120" src="https://s-media-cache-ak0.pinimg.com/736x/4b/52/28/4b5228f476a13f023e30147a1eb70f4a.jpg">
+					<h1>Awesome !</h1>
+					<button class="btn btn-primary">Learn more</button>
+				</div>
+				<div class="col-sm-4">
+					<img height="120" src="http://www.relatably.com/m/img/memes-angry-face/Angry-Meme-Face-Png-06.png">
+					<h1>Tremendous !</h1>
+					<button class="btn btn-primary">Learn more</button>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-sm-4 col-sm-offset-4">
+					<div class="form-group">
+						<input class="form-control" type="text" placeholder="Username">
+					</div>
+					<div class="form-group">
+						<input class="form-control" type="password" placeholder="Password">
+					</div>
+					<div class="form-group">
+						<label class="checkbox-inline"><input type="radio" name="myRadio">Option 1</label>
+						<label class="checkbox-inline"><input type="radio" name="myRadio">Option 2</label>
+						<label class="checkbox-inline"><input type="radio" name="myRadio">Option 3</label>
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" rows="8"></textarea>
+					</div>
+					<div class="form-group text-center">
+						<button class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="text-muted text-center form-group">
+				© 2017 AwesomeCompany, Inc.
+			</div>
+		</div>
+
+		<!-- Bootstrap js -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</body>
+</html>

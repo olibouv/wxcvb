@@ -1,0 +1,28 @@
+/**
+ *
+ */
+
+.navbar {
+	margin-bottom: 0;
+}
+
+
+.wrapper {
+  margin-left: 140px;
+}
+
+#myCarousel {
+	margin-bottom: 40px;
+}
+
+.carousel-inner > .item > img {
+	max-height: 300px;
+	min-height: 100px;
+	margin: auto;
+}
+
+@media (min-width: 992px) {
+	.carousel-inner > .item > img {
+		height: 300px;
+	}
+}
